@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.FixTok" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/fixtok_background</item>
+        <item name="android:colorBackground">@color/fixtok_background</item>
+        <item name="android:statusBarColor">@color/fixtok_background</item>
+        <item name="android:navigationBarColor">@color/fixtok_background</item>
+    </style>
+
+    <style name="Theme.FixTok.Fullscreen" parent="Theme.FixTok">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="RemoteKey">
+        <item name="android:layout_width">72dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:background">@drawable/focusable_bg</item>
+        <item name="android:focusable">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/fixtok_text</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="RemoteRowButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:background">@drawable/focusable_bg</item>
+        <item name="android:focusable">true</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingStart">14dp</item>
+        <item name="android:paddingEnd">14dp</item>
+        <item name="android:textColor">@color/fixtok_text</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+</resources>

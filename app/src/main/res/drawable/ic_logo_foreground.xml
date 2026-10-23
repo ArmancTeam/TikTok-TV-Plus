@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Foreground unificado para todos los iconos: el gato dentro de la zona segura adaptativa -->
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/logo_tv"
+    android:inset="22%" />

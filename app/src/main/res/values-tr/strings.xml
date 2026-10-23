@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">TikTok TV Plus</string>
+    <string name="top_bar_title">TikTok TV</string>
+    <string name="launcher_label">TikTok TV</string>
+    <string name="menu_title">TikTok TV</string>
+    <string name="menu_subtitle">Kumanda menüsü</string>
+    <string name="menu_search">🔍 Ara</string>
+    <string name="menu_tab_foryou">Sana Özel</string>
+    <string name="menu_tab_following">Takip</string>
+    <string name="menu_tab_explore">Keşfet</string>
+    <string name="menu_tab_live">CANLI</string>
+    <string name="menu_mouse">🖱 Sanal Mouse</string>
+    <string name="menu_qr_login">📱 QR kod ile giriş</string>
+    <string name="menu_mute">🔇 Sesi aç / kapat</string>
+    <string name="menu_settings">⚙ Kumanda Ayarları</string>
+    <string name="menu_help">🎮 Tuşlar</string>
+    <string name="menu_status">"OK: seç  •  BACK: kapat  •  OK uzun: mouse"</string>
+    <string name="help_title">🎮 Kumanda Kontrolleri</string>
+    <string name="help_body">"↑ / ↓    Video değiştir\n← / →    Etkileşim alanı\n← / → uzun    10 sn ileri / geri sar\nOK    Oynat / durdur\nOK uzun    Sanal mouse\n⏯ ⏪ ⏩    Oynat / durdur / sar\nCH ± veya ⏮ ⏭    Önceki / sonraki video\nBACK    Kapat / geri\n🔴 KIRMIZI    Fare aç/kapa (basılı tut: ayarlar)\n🟢 YEŞİL    Temiz ekran (sadece video)\n🎤 / SEARCH    Sesli arama\nMENU    Kumanda"</string>
+    <string name="common_close">Kapat</string>
+    <string name="common_cancel">İptal</string>
+    <string name="error_offline_title">İnternet bağlantısı yok</string>
+    <string name="error_offline_message">Bağlantını kontrol et. Ağ geri gelince sayfa kendiliğinden yenilenir, ya da OK ile tekrar dene.</string>
+    <string name="error_generic_title">TikTok yüklenemedi</string>
+    <string name="error_generic_message">Tekrar denemek için OK\'a bas.</string>
+    <string name="error_http_message">Sunucu hatası (%1$d). Tekrar denemek için OK\'a bas.</string>
+    <string name="error_renderer_title">Web motoru durdu</string>
+    <string name="error_renderer_message">Görünümü yeniden başlatmak için OK\'a bas.</string>
+    <string name="error_retry">Tekrar dene</string>
+    <string name="settings_title">Kumanda Ayarları</string>
+    <string name="settings_section_mouse">D-PAD FARE</string>
+    <string name="settings_section_app">UYGULAMA VE HATA AYIKLAMA</string>
+    <string name="settings_check_updates">Uygulama güncellemelerini kontrol et</string>
+    <string name="settings_update_title">Uygulama güncellemeleri</string>
+    <string name="settings_update_not_configured">Projede resmî bir sürüm bağlantısı veya güncelleme manifestosu bulunmuyor. Bu nedenle otomatik güncelleme kontrolünü güvenli şekilde etkinleştiremiyorum. Bağlamak için resmî GitHub Releases ya da güncelleme manifestosu bağlantısı gerekli.</string>
+    <string name="settings_diagnostics">Hata ayıklama / cihaz bilgileri</string>
+    <string name="settings_diagnostics_title">Tanılama bilgileri</string>
+    <string name="settings_diagnostics_body">Uygulama: %1$s\nPaket: %2$s\nAndroid: %3$s (API %4$d)\nCihaz: %5$s\nSistem WebView: %6$s</string>
+    <string name="settings_mouse_speed_label">İmleç hızı: %1$d / 10</string>
+    <string name="settings_cursor_shape_title">İmleç biçimi</string>
+    <string name="settings_mouse_enabled">Ana ekranda sanal fareyi etkinleştir</string>
+    <string name="settings_clean_screen">Temiz ekran (TV çubuklarını gizle)</string>
+    <string name="settings_mouse_speed">Mouse hızı: %1$sx</string>
+    <string name="settings_auto_next">Sonraki videoyu otomatik oynat</string>
+    <string name="settings_block_trackers">Telemetri ve reklamları engelle (daha hızlı açılış)</string>
+    <string name="settings_disable_av1">H.264\'ü zorla (AV1\'i kapat)</string>
+    <string name="settings_start_page">Açılış sayfası: %1$s</string>
+    <string name="settings_clear_data">Çıkış yap / verileri temizle</string>
+    <string name="settings_clear_confirm_title">Tüm veriler silinsin mi?</string>
+    <string name="settings_clear_confirm_message">Oturumun kapanacak ve önbellek boşaltılacak.</string>
+    <string name="settings_clear_action">Temizle</string>
+    <string name="settings_clear_done">Veriler temizlendi</string>
+    <string name="osd_muted">🔇 Ses kapalı</string>
+    <string name="osd_unmuted">🔊 Ses açık</string>
+    <string name="osd_blocked_link">Dış bağlantı engellendi</string>
+    <string name="osd_search_not_found">TikTok arama düğmesi bulunamadı</string>
+    <string name="google_login_title">Google ile giriş kullanılamıyor</string>
+    <string name="google_login_message">"Google, TV içindeki web görünümlerinde girişi engelliyor.\n\nBunlardan birini kullan:\n• QR kod (telefondaki TikTok uygulamasıyla tara)\n• E-posta / şifre\n• Telefon numarası"</string>
+    <string name="google_login_qr">QR kodu göster</string>
+    <string name="google_login_page">Giriş sayfası</string>
+    <string name="menu_voice">🎤 Sesli ara</string>
+    <string name="voice_listening">Dinleniyor…</string>
+    <string name="voice_hint">OK: bitir  •  BACK: iptal</string>
+    <string name="voice_no_match">Anlaşılamadı, tekrar dene</string>
+    <string name="voice_unavailable">Bu cihazda sesli arama kullanılamıyor</string>
+    <string name="voice_permission_denied">Sesli arama için mikrofon izni gerekli</string>
+    <string name="voice_prompt">Ne aramak istediğini söyle</string>
+    <string name="settings_edge_scroll">İmleç ekran kenarına dayanınca kaydır</string>
+    <string name="osd_mouse_on">🖱 Mouse açık</string>
+    <string name="osd_mouse_off">🖱 Mouse kapalı</string>
+    <string name="menu_clean">🧼 Temiz ekran</string>
+    <string name="osd_clean_on">✨ Temiz ekran açık</string>
+    <string name="osd_clean_off">Temiz ekran kapalı</string>
+    <string name="settings_voice_auto_open">Sesli aramada ilk videoyu otomatik aç</string>
+    <string name="settings_amoled">AMOLED modu (tam siyah arka plan)</string>
+    <string name="settings_cursor_color">İmleç rengi: %1$s</string>
+    <string name="settings_cursor_color_title">İmleç rengi / neon efekti</string>
+    <string name="cursor_pink">TikTok pembesi</string>
+    <string name="cursor_cyan">Turkuaz</string>
+    <string name="cursor_white">Beyaz</string>
+    <string name="cursor_yellow">Sarı</string>
+    <string name="cursor_green">Yeşil</string>
+    <string name="cursor_purple">Mor</string>
+    <string name="cursor_blue">Mavi</string>
+    <string name="by_manas">Manas tarafından</string>
+    <string name="error_no_connection">Bağlantı yok. Yeniden deneniyor…</string>
+    <string name="error_no_connection_final">TikTok uygulamasına ulaşılamıyor.</string>
+    <string name="press_back_again_to_exit">Çıkmak için Geri tuşuna tekrar bas</string>
+    <string name="settings_section_sound">SES</string>
+    <string name="settings_section_account">HESAP</string>
+    <string name="settings_bass">Bas güçlendirme</string>
+    <string name="settings_account">Hesap</string>
+    <string name="settings_login">Giriş yap</string>
+    <string name="settings_logout">Çıkış yap</string>
+    <string name="settings_done">Tamam</string>
+    <string name="account_status_logged_in">TikTok hesabına giriş yapıldı</string>
+    <string name="account_status_logged_out">Oturum açılmadı</string>
+    <string name="login_title">TikTok uygulamasına giriş yap</string>
+    <string name="login_hint">D-Pad — imleci hareket ettir  ·  OK — tıkla  ·  Geri — kapat</string>
+    <string name="mouse_cursor">Fare imleci</string>
+    <string name="settings_button_desc">Ayarları aç</string>
+    <string name="remote_open">Kumanda</string>
+    <string name="remote_title">Kumanda</string>
+    <string name="remote_ok">OK</string>
+    <string name="remote_back">Geri</string>
+    <string name="remote_red">Fare</string>
+    <string name="remote_green">Temiz</string>
+    <string name="settings_cursor_size_label">İmleç boyutu: %1$d dp</string>
+
+    <string name="settings_update_error">Güncelleme kontrolü başarısız: %1$s</string>
+    <string name="settings_update_available">Yeni sürüm var: %1$s\n%2$s</string>
+    <string name="settings_update_latest">En son sürümü kullanıyorsun (%1$s).</string>
+    <string name="settings_update_none">github.com/ArmancTeam/Fixtok7 üzerinde henüz yayınlanmış bir sürüm yok.</string>
+    <string name="settings_update_open">Sürümü aç</string>
+    <string name="settings_cursor_preview">Önizleme</string>
+
+    <string-array name="cursor_color_labels">
+        <item>Neon Camgöbeği</item><item>Neon Pembe</item><item>Neon Yeşil</item><item>Neon Mor</item><item>Neon Mavi</item>
+        <item>Neon Sarı</item><item>Neon Turuncu</item><item>Neon Kırmızı</item><item>Neon Beyaz</item><item>Neon Limon</item>
+        <item>Camgöbeği</item><item>Pembe</item><item>Yeşil</item><item>Mor</item><item>Mavi</item>
+        <item>Sarı</item><item>Turuncu</item><item>Kırmızı</item><item>Beyaz</item><item>Siyah</item>
+    </string-array>
+    <string-array name="cursor_shape_labels">
+        <item>Ok</item><item>Kağıt uçak</item><item>Nokta</item><item>Damla</item>
+    </string-array>
+
+    <string name="settings_section_guide">REHBER / WEB GÖRÜNÜMÜ</string>
+    <string name="settings_guide_mode">Rehber modu</string>
+    <string name="settings_empty_cache">Önbelleği boşalt</string>
+    <string name="settings_cache_cleared">WebView önbelleği temizlendi</string>
+    <string name="settings_cache_clear_failed">Önbellek temizlenemedi</string>
+    <string name="settings_advanced_audio">Gelişmiş ses sistemi</string>
+    <string name="settings_cursor_precision">Profesyonel imleç hassasiyet modu</string>
+    <string-array name="settings_guide_mode_labels"><item>Android CSS</item><item>Wide Windows</item><item>None</item></string-array>
+    <string name="settings_material_you">Material You teması</string>
+    <string name="settings_accent_color">Vurgu rengi</string>
+    <string-array name="settings_accent_color_labels">
+        <item>Turkuaz</item><item>Pembe</item><item>Mavi</item><item>Mor</item><item>Yeşil</item><item>Turuncu</item><item>Material You (sistem)</item>
+    </string-array>
+    <string name="settings_section_video">VİDEO / İNDİRME</string>
+    <string name="settings_video_quality">Tercih edilen video kalitesi</string>
+    <string name="settings_video_download">Video indirme tercihi</string>
+    <string-array name="settings_video_quality_labels">
+        <item>Otomatik (önerilen)</item><item>720p HD</item><item>2K / 1440p</item><item>4K / 2160p</item>
+    </string-array>
+    <string-array name="settings_video_download_labels">
+        <item>Varsayılan (TikTok kullanılabilirliği belirler)</item><item>Mevcut en yüksek kaliteyi tercih et</item><item>Veri tasarrufu / küçük dosya</item><item>İndirmeler kapalı (tercih)</item>
+    </string-array>
+</resources>

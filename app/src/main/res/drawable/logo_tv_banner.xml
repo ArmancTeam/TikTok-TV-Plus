@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Banner 16:9 para Android TV (leanback) / superficies que usan banner.
+     Usa el wordmark ancho (loading_logo) centrado sobre negro para respetar el aspecto. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/tiktok_black" />
+        </shape>
+    </item>
+
+    <item
+        android:drawable="@drawable/loading_logo"
+        android:gravity="center"
+        android:width="240dp"
+        android:height="88dp" />
+</layer-list>

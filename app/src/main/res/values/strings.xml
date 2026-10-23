@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="by_manas">by Manas</string>
+ <string name="app_name">TikTok TV Plus</string>
+    <string name="top_bar_title">TikTok TV</string>
+    <string name="launcher_label">TikTok TV</string>
+    <string name="error_no_connection">No connection. Retrying…</string>
+    <string name="error_no_connection_final">Can\'t reach TikTok.</string>
+    <string name="press_back_again_to_exit">Press Back again to exit</string>
+
+    <string name="settings_title">FixTok Settings</string>
+    <string name="settings_section_sound">SOUND</string>
+    <string name="settings_section_account">ACCOUNT</string>
+    <string name="settings_section_mouse">D-PAD MOUSE</string>
+    <string name="settings_section_app">APP &amp; DIAGNOSTICS</string>
+    <string name="settings_check_updates">Check for app updates</string>
+    <string name="settings_update_title">App updates</string>
+    <string name="settings_update_not_configured">The project does not contain an official release URL or update manifest, so automatic update checking cannot be enabled safely yet. Add the official GitHub Releases or update-manifest URL to connect it.</string>
+    <string name="settings_diagnostics">Debug / device information</string>
+    <string name="settings_diagnostics_title">Diagnostics</string>
+    <string name="settings_diagnostics_body">App: %1$s\nPackage: %2$s\nAndroid: %3$s (API %4$d)\nDevice: %5$s\nSystem WebView: %6$s</string>
+    <string name="settings_mouse_speed_label">Cursor speed: %1$d / 10</string>
+    <string name="settings_cursor_shape_title">Cursor style</string>
+    <string name="settings_mouse_enabled">Enable virtual mouse on main screen</string>
+    <string name="settings_clean_screen">Clean screen (hide TV bars)</string>
+    <string name="settings_bass">Bass boost</string>
+    <string name="settings_account">Account</string>
+    <string name="settings_login">Log in</string>
+    <string name="settings_logout">Log out</string>
+    <string name="settings_done">Done</string>
+    <string name="account_status_logged_in">Signed in to TikTok</string>
+    <string name="account_status_logged_out">Not signed in</string>
+
+    <string name="login_title">Sign in to TikTok</string>
+    <string name="login_hint">D-pad — move cursor  ·  OK — click  ·  Back — close</string>
+    <string name="mouse_cursor">Mouse cursor</string>
+
+    <string name="settings_button_desc">Open settings</string>
+    <string name="remote_open">Remote</string>
+    <string name="remote_title">Remote</string>
+    <string name="remote_ok">OK</string>
+    <string name="remote_back">Back</string>
+    <string name="remote_red">Mouse</string>
+    <string name="remote_green">Clean</string>
+  
+  
+    <!-- Menu -->
+    <string name="menu_title">TikTok TV</string>
+    <string name="menu_subtitle">Remote menu</string>
+    <string name="menu_search">🔍 Search</string>
+    <string name="menu_tab_foryou">For You</string>
+    <string name="menu_tab_following">Following</string>
+    <string name="menu_tab_explore">Explore</string>
+    <string name="menu_tab_live">LIVE</string>
+    <string name="menu_mouse">🖱 Virtual mouse</string>
+    <string name="menu_qr_login">📱 Sign in with QR code</string>
+    <string name="menu_mute">🔇 Mute / unmute</string>
+    <string name="menu_settings">⚙ Remote settings</string>
+    <string name="menu_help">🎮 Controls</string>
+    <string name="menu_status">"OK: select  •  BACK: close  •  Hold OK: mouse"</string>
+
+    <!-- Help -->
+    <string name="help_title">🎮 Remote controls</string>
+    <string name="help_body">"↑ / ↓    Change video\n← / →    Interaction area\nHold ← / →    Seek 10 s\nOK    Play / pause\nHold OK    Virtual mouse\n⏯ ⏪ ⏩    Play / pause / seek\nCH ± or ⏮ ⏭    Previous / next video\nBACK    Close / back\n🔴 RED    Mouse on / off (hold: settings)\n🟢 GREEN    Clean screen (video only)\n🎤 / SEARCH    Voice search\nMENU    Remote"</string>
+    <string name="common_close">Close</string>
+    <string name="common_cancel">Cancel</string>
+
+    <!-- Errors -->
+    <string name="error_offline_title">No internet connection</string>
+    <string name="error_offline_message">Check your connection. The page reloads by itself when the network is back, or press OK to retry.</string>
+    <string name="error_generic_title">Could not load TikTok</string>
+    <string name="error_generic_message">Press OK to retry.</string>
+    <string name="error_http_message">Server error (%1$d). Press OK to retry.</string>
+    <string name="error_renderer_title">The web engine stopped</string>
+    <string name="error_renderer_message">Press OK to restart the app view.</string>
+    <string name="error_retry">Retry</string>
+
+    <!-- Settings -->
+    <string name="settings_mouse_speed">Mouse speed: %1$s×</string>
+    <string name="settings_auto_next">Auto-play next video</string>
+    <string name="settings_block_trackers">Block telemetry and ads (faster start)</string>
+    <string name="settings_disable_av1">Force H.264 (disable AV1)</string>
+    <string name="settings_start_page">Start page: %1$s</string>
+    <string name="settings_clear_data">Sign out / clear data</string>
+    <string name="settings_clear_confirm_title">Clear all data?</string>
+    <string name="settings_clear_confirm_message">You will be signed out and the cache will be emptied.</string>
+    <string name="settings_clear_action">Clear</string>
+    <string name="settings_clear_done">Data cleared</string>
+
+    <!-- On-screen messages -->
+    <string name="osd_muted">🔇 Muted</string>
+    <string name="osd_unmuted">🔊 Sound on</string>
+    <string name="osd_blocked_link">External link blocked</string>
+    <string name="osd_search_not_found">TikTok search button not found</string>
+
+    <!-- Google sign-in -->
+    <string name="google_login_title">Google sign-in unavailable</string>
+    <string name="google_login_message">"Google blocks sign-in inside TV web views.\n\nUse one of these instead:\n• QR code (scan it with the TikTok app on your phone)\n• Email / password\n• Phone number"</string>
+    <string name="google_login_qr">Show QR code</string>
+    <string name="google_login_page">Login page</string>
+
+    <!-- Voice search / mouse -->
+    <string name="menu_voice">🎤 Voice search</string>
+    <string name="voice_listening">Listening…</string>
+    <string name="voice_hint">OK: done  •  BACK: cancel</string>
+    <string name="voice_no_match">Could not understand, try again</string>
+    <string name="voice_unavailable">Voice search is not available on this device</string>
+    <string name="voice_permission_denied">Microphone permission is needed for voice search</string>
+    <string name="voice_prompt">Say what to search for</string>
+    <string name="settings_edge_scroll">Scroll when the cursor is held against the screen edge</string>
+    <string name="osd_mouse_on">🖱 Mouse on</string>
+    <string name="osd_mouse_off">🖱 Mouse off</string>
+    <string name="menu_clean">🧼 Clean screen</string>
+    <string name="osd_clean_on">✨ Clean screen on</string>
+    <string name="osd_clean_off">Clean screen off</string>
+    <string name="settings_voice_auto_open">Voice search: open the first video automatically</string>
+    <string name="settings_amoled">AMOLED mode (pure black background)</string>
+    <string name="settings_cursor_color">Cursor color: %1$s</string>
+    <string name="settings_cursor_color_title">Cursor color / neon effect</string>
+    <string name="cursor_pink">TikTok pink</string>
+    <string name="cursor_cyan">Cyan</string>
+    <string name="cursor_white">White</string>
+    <string name="cursor_yellow">Yellow</string>
+    <string name="cursor_green">Green</string>
+    <string name="cursor_purple">Purple</string>
+    <string name="cursor_blue">Blue</string>
+  
+  
+  
+    <string name="settings_cursor_size_label">Cursor size: %1$d dp</string>
+
+    <string name="settings_update_error">Update check failed: %1$s</string>
+    <string name="settings_update_available">New version available: %1$s\n%2$s</string>
+    <string name="settings_update_latest">You are on the latest version (%1$s).</string>
+    <string name="settings_update_none">No release has been published at github.com/ArmancTeam/Fixtok7 yet.</string>
+    <string name="settings_update_open">Open release</string>
+    <string name="settings_cursor_preview">Preview</string>
+
+    <string-array name="cursor_color_labels">
+        <item>Neon Cyan</item><item>Neon Pink</item><item>Neon Green</item><item>Neon Purple</item><item>Neon Blue</item>
+        <item>Neon Yellow</item><item>Neon Orange</item><item>Neon Red</item><item>Neon White</item><item>Neon Lime</item>
+        <item>Cyan</item><item>Pink</item><item>Green</item><item>Purple</item><item>Blue</item>
+        <item>Yellow</item><item>Orange</item><item>Red</item><item>White</item><item>Black</item>
+    </string-array>
+    <string-array name="cursor_shape_labels">
+        <item>Arrow</item><item>Paper plane</item><item>Dot</item><item>Drop</item>
+    </string-array>
+
+    <string name="settings_section_guide">GUIDE / WEB VIEW</string>
+    <string name="settings_guide_mode">Guide mode</string>
+    <string name="settings_empty_cache">Empty cache</string>
+    <string name="settings_cache_cleared">WebView cache cleared</string>
+    <string name="settings_cache_clear_failed">Could not clear cache</string>
+    <string name="settings_advanced_audio">Advanced audio system</string>
+    <string name="settings_cursor_precision">Professional cursor precision mode</string>
+    <string-array name="settings_guide_mode_labels"><item>Android CSS</item><item>Wide Windows</item><item>None</item></string-array>
+    <string name="settings_material_you">Material You theme</string>
+    <string name="settings_accent_color">Accent color</string>
+    <string-array name="settings_accent_color_labels">
+        <item>Cyan</item><item>Pink</item><item>Blue</item><item>Purple</item><item>Green</item><item>Orange</item><item>Material You (system)</item>
+    </string-array>
+    <string name="settings_section_video">VIDEO / DOWNLOAD</string>
+    <string name="settings_video_quality">Preferred playback quality</string>
+    <string name="settings_video_download">Video download preference</string>
+    <string-array name="settings_video_quality_labels">
+        <item>Auto (recommended)</item><item>720p HD</item><item>2K / 1440p</item><item>4K / 2160p</item>
+    </string-array>
+    <string-array name="settings_video_download_labels">
+        <item>Default (TikTok controls availability)</item><item>Prefer highest available quality</item><item>Data saver / smaller file</item><item>Downloads disabled (preference)</item>
+    </string-array>
+</resources>

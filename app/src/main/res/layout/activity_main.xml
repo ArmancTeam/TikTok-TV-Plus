@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fixtok_background">
+
+    <!-- TikTok WebView -->
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/fixtok_background"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+    <!-- HTML5 fullscreen video -->
+    <FrameLayout
+        android:id="@+id/fullscreenContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:visibility="gone" />
+
+    <!-- TV top bar: brand + account status + settings -->
+    <LinearLayout
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="@drawable/bg_top_bar"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="40dp"
+        android:paddingEnd="32dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="36dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/top_bar_title"
+            android:textColor="@color/fixtok_text"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/topBarAccountStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:text="@string/account_status_logged_out"
+            android:textColor="@color/fixtok_text_dim"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/remoteButton"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:layout_marginEnd="12dp"
+            android:background="@drawable/focusable_bg"
+            android:focusable="true"
+            android:gravity="center"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:text="@string/remote_open"
+            android:textColor="@color/fixtok_text"
+            android:textSize="15sp" />
+
+        <ImageButton
+            android:id="@+id/settingsButton"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:background="@drawable/focusable_bg"
+            android:contentDescription="@string/settings_button_desc"
+            android:focusable="true"
+            android:padding="10dp"
+            android:src="@drawable/ic_settings_gear" />
+
+    </LinearLayout>
+
+    <include
+        android:id="@+id/remoteInclude"
+        layout="@layout/remote_panel"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/remoteLauncher"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="28dp"
+        android:background="@drawable/focusable_bg"
+        android:elevation="170dp"
+        android:focusable="true"
+        android:paddingStart="18dp"
+        android:paddingTop="12dp"
+        android:paddingEnd="18dp"
+        android:paddingBottom="12dp"
+        android:text="@string/remote_open"
+        android:textColor="@color/fixtok_text"
+        android:textSize="16sp" />
+
+    <!-- Connection error overlay: TV dialog card, centered -->
+    <FrameLayout
+        android:id="@+id/errorContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#CC000000"
+        android:visibility="gone"
+        android:elevation="150dp">
+
+        <LinearLayout
+            android:layout_width="420dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_error_dialog"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="32dp">
+
+            <TextView
+                android:id="@+id/errorText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/error_no_connection"
+                android:textColor="@color/fixtok_text"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/errorRetryButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/focusable_bg"
+                android:focusable="true"
+                android:paddingStart="36dp"
+                android:paddingEnd="36dp"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp"
+                android:text="@string/error_retry"
+                android:textColor="@color/fixtok_accent"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <!-- TikTok-style splash: black screen, chromatic note and animated cyan/pink loading streak. -->
+    <FrameLayout
+        android:id="@+id/splashContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/tiktok_black"
+        android:elevation="200dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.armanc.team.TikTokNoteView
+                android:id="@+id/splashLogo"
+                android:layout_width="144dp"
+                android:layout_height="144dp"
+                android:contentDescription="TikTok musical note" />
+
+            <!-- Kept in the layout binding for compatibility, but the original-style splash has no wordmark. -->
+            <TextView
+                android:id="@+id/splashTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:text="@string/app_name" />
+
+            <TextView
+                android:id="@+id/splashByManas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:text="@string/by_manas" />
+
+            <com.armanc.team.NeonOrbitView
+                android:id="@+id/neonOrbitView"
+                android:layout_width="220dp"
+                android:layout_height="112dp"
+                android:layout_marginTop="12dp"
+                android:contentDescription="Turkuaz ve pembe neon halkalar" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <!-- Virtual cursor overlay used by the D-pad mouse on the main feed -->
+    <com.armanc.team.VirtualCursorView
+        android:id="@+id/mainMouseCursor"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="top|start"
+        android:contentDescription="@string/mouse_cursor"
+        android:elevation="120dp"
+        android:visibility="gone" />
+
+</FrameLayout>

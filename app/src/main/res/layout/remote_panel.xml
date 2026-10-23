@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/remotePanel"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="end"
+    android:background="#F2101018"
+    android:elevation="180dp"
+    android:fillViewport="true"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="16dp"
+        android:paddingTop="20dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/remote_title"
+                android:textColor="@color/fixtok_text"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/remoteClose"
+                style="@style/RemoteKey"
+                android:layout_width="wrap_content"
+                android:paddingStart="14dp"
+                android:paddingEnd="14dp"
+                android:text="@string/common_close" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/remoteUp"
+                style="@style/RemoteKey"
+                android:nextFocusDown="@+id/remoteOk"
+                android:nextFocusLeft="@+id/remoteLeft"
+                android:nextFocusRight="@+id/remoteRight"
+                android:nextFocusUp="@+id/remoteUp"
+                android:text="↑" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/remoteLeft"
+                    style="@style/RemoteKey"
+                    android:nextFocusDown="@+id/remoteDown"
+                    android:nextFocusLeft="@+id/remoteLeft"
+                    android:nextFocusRight="@+id/remoteOk"
+                    android:nextFocusUp="@+id/remoteUp"
+                    android:text="←" />
+
+                <TextView
+                    android:id="@+id/remoteOk"
+                    style="@style/RemoteKey"
+                    android:nextFocusDown="@+id/remoteDown"
+                    android:nextFocusLeft="@+id/remoteLeft"
+                    android:nextFocusRight="@+id/remoteRight"
+                    android:nextFocusUp="@+id/remoteUp"
+                    android:text="@string/remote_ok"
+                    android:textColor="@color/fixtok_accent" />
+
+                <TextView
+                    android:id="@+id/remoteRight"
+                    style="@style/RemoteKey"
+                    android:nextFocusDown="@+id/remoteDown"
+                    android:nextFocusLeft="@+id/remoteOk"
+                    android:nextFocusRight="@+id/remoteRight"
+                    android:nextFocusUp="@+id/remoteUp"
+                    android:text="→" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/remoteDown"
+                style="@style/RemoteKey"
+                android:nextFocusDown="@+id/remoteBack"
+                android:nextFocusLeft="@+id/remoteLeft"
+                android:nextFocusRight="@+id/remoteRight"
+                android:nextFocusUp="@+id/remoteOk"
+                android:text="↓" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/remoteBack"
+                style="@style/RemoteKey"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/remote_back" />
+
+            <TextView
+                android:id="@+id/remoteRed"
+                style="@style/RemoteKey"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/remote_red"
+                android:textColor="@color/fixtok_accent_alt" />
+
+            <TextView
+                android:id="@+id/remoteGreen"
+                style="@style/RemoteKey"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/remote_green"
+                android:textColor="@color/fixtok_accent" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/remoteSearch"
+            style="@style/RemoteRowButton"
+            android:text="@string/menu_search" />
+
+        <TextView
+            android:id="@+id/remoteVoice"
+            style="@style/RemoteRowButton"
+            android:text="@string/menu_voice" />
+
+        <TextView
+            android:id="@+id/remoteForYou"
+            style="@style/RemoteRowButton"
+            android:text="@string/menu_tab_foryou" />
+
+        <TextView
+            android:id="@+id/remoteFollowing"
+            style="@style/RemoteRowButton"
+            android:text="@string/menu_tab_following" />
+
+        <TextView
+            android:id="@+id/remoteExplore"
+            style="@style/RemoteRowButton"
+            android:text="@string/menu_tab_explore" />
+
+        <TextView
+            android:id="@+id/remoteLive"
+            style="@style/RemoteRowButton"
+            android:text="@string/menu_tab_live" />
+
+        <TextView
+            android:id="@+id/remoteMouse"
+            style="@style/RemoteRowButton"
+            android:text="@string/menu_mouse" />
+
+        <TextView
+            android:id="@+id/remoteMute"
+            style="@style/RemoteRowButton"
+            android:text="@string/menu_mute" />
+
+        <TextView
+            android:id="@+id/remoteQr"
+            style="@style/RemoteRowButton"
+            android:text="@string/menu_qr_login" />
+
+        <TextView
+            android:id="@+id/remoteClean"
+            style="@style/RemoteRowButton"
+            android:text="@string/menu_clean" />
+
+        <TextView
+            android:id="@+id/remoteSettings"
+            style="@style/RemoteRowButton"
+            android:text="@string/menu_settings" />
+
+        <TextView
+            android:id="@+id/remoteHelp"
+            style="@style/RemoteRowButton"
+            android:text="@string/menu_help" />
+
+    </LinearLayout>
+</ScrollView>
